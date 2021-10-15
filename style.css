@@ -46,6 +46,7 @@ header {
   height: 500px;
   border-radius: 0 0 0 100px;
   overflow: hidden;
+  color: var(--color-white);
 }
 
 header > img {
@@ -53,4 +54,39 @@ header > img {
   position: absolute;
   top: -1250px;
   right: -1200px;
+}
+
+nav {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-left li {
+  padding: 7px 15px;
+}
+
+.nav-left > img {
+  margin-right: 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  padding: 10px 20px;
+}
+
+nav li img {
+  margin-left: 7px;
 }
