@@ -36,6 +36,36 @@ h6 {
   font-family: var(--text-heading);
 }
 
+.btn-light {
+  background-color: var(--color-white);
+  color: var(--color-very-light-red);
+  padding: 10px 40px;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-light:hover {
+  background-color: var(--color-very-light-red);
+  color: var(--color-white);
+}
+
+.btn-dark {
+  background-color: var(--color-very-light-red);
+  color: var(--color-white);
+  padding: 10px 40px;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-light:hover {
+  background-color: var(--color-white);
+  color: var(--color-very-light-red);
+}
+
 header {
   position: relative;
   background-image: linear-gradient(
@@ -81,6 +111,8 @@ nav {
 nav ul {
   list-style: none;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 nav li {
