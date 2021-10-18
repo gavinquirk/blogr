@@ -36,20 +36,34 @@ h6 {
   font-family: var(--text-heading);
 }
 
+.mr-10 {
+  margin-right: 10px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.text-light {
+  color: var(--color-grayish-blue);
+}
+
 .container {
   max-width: 1100px;
   margin: 0 auto;
 }
 
-.btn-light {
-  background-color: var(--color-white);
-  color: var(--color-very-light-red);
-  padding: 10px 40px;
-  border: none;
+.btn {
   border-radius: 50px;
   font-weight: 600;
   cursor: pointer;
-  margin-right: 10px;
+  padding: 10px 40px;
+}
+
+.btn-light {
+  background-color: var(--color-white);
+  color: var(--color-very-light-red);
+  border: none;
 }
 
 .btn-light:hover {
@@ -60,12 +74,7 @@ h6 {
 .btn-dark {
   background-color: var(--color-very-light-red);
   color: var(--color-white);
-  padding: 10px 40px;
   border: solid 1px var(--color-white);
-  border-radius: 50px;
-  font-weight: 600;
-  cursor: pointer;
-  margin-left: 10px;
 }
 
 .btn-dark:hover {
@@ -103,7 +112,7 @@ header > img {
 .header-content > h1 {
   font-size: 56px;
   margin-bottom: 40px;
-  font-family: var(--text-heading);
+  font-family: var(--text-default);
 }
 
 .header-content > h6 {
@@ -126,6 +135,11 @@ nav {
   align-items: center;
   justify-content: space-between;
   margin: 60px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .nav-left {
